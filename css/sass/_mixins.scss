@@ -1,0 +1,164 @@
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+@mixin border_radius( $radius ) {
+
+	border-radius:         $radius;
+	-moz-border-radius:    $radius;
+	-webkit-border-radius: $radius;
+
+}
+
+@mixin border_right( $radius ) {
+	border-right:  $radius;
+}
+
+@mixin border_top_right_radius( $radius ) {
+
+	border-top-right-radius:         $radius;
+	-moz-border-top-right-radius:    $radius;
+	-webkit-border-top-right-radius: $radius;
+
+}
+
+@mixin border_bottom_right_radius( $radius ) {
+
+	border-bottom-right-radius:  $radius;
+	-moz-bottom-right-radius:    $radius;
+	-webkit-bottom-right-radius: $radius;
+
+}
+
+@mixin border_top_left_radius( $radius ) {
+
+	border-top-left-radius:         $radius;
+	-moz-border-top-left-radius:    $radius;
+	-webkit-border-top-left-radius: $radius;
+
+}
+
+@mixin border_bottom_left_radius( $radius ) {
+
+	border-bottom-left-radius:         $radius;
+	-moz-border-bottom-left-radius:    $radius;
+	-webkit-border-bottom-left-radius: $radius;
+
+}
+
+@mixin post_title_font( $margin: 0 0 0 0 ) {
+
+	font-family:   'Source Sans Pro', sans-serif;
+	font-size:      40px;
+	letter-spacing: -2px;
+	margin:         $margin;
+	color:          $off-black;
+	font-weight:    bold;
+
+}
+
+@mixin collapse_lr_padding() {
+
+	padding-left:  0;
+	padding-right: 0;
+
+}
+
+@mixin rounded_image() {
+
+	border-radius:         150px;
+	-moz-border-radius:    150px;
+	-webkit-border-radius: 150px;
+
+}
+
+@mixin header_font() {
+
+	font-family:      'Muli', Sans-serif;
+	font-size:        58px;
+	color:            $off-white;
+	text-align:       left;
+	font-weight:      bold;
+
+}
+
+@mixin jetpack_header() {
+
+	/* Note these styles iare marked as !important specifically for WordPress.com */
+	display:        block !important;
+	letter-spacing: -1px  !important;
+	font-size:      20px  !important;
+	margin-top:     0     !important;
+
+}
+
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+
+@mixin sticky_ribbon() {
+
+	.sticky-wrapper {
+
+		width:    85px;
+		height:   88px;
+		overflow: hidden;
+		position: absolute;
+		top:      -3px;
+		right:    -3px;
+		z-index:  1;
+
+	}
+
+	.sticky-ribbon {
+
+		font:               bold 15px Sans-Serif;
+		color:              #333;
+		text-align:         center;
+		text-shadow:        rgba( 255, 255, 255, 0.5 ) 0px 1px 0px;
+		-webkit-transform:  rotate( 45deg );
+		-moz-transform:     rotate( 45deg );
+		-ms-transform:      rotate( 45deg );
+		-o-transform:       rotate( 45deg );
+		position:           relative;
+		padding:            4px 0;
+		left:               -6px;
+		top:                20px;
+		width:              120px;
+		background-color:   #f4f8fa;
+		background-image:   -webkit-gradient( linear, left top, left bottom, from( #f4f8fa ), to( #f4f8fa ) );
+		background-image:   -webkit-linear-gradient(top, #f4f8fa, #f4f8fa);
+		background-image:   -moz-linear-gradient(top, #f4f8fa, #f4f8fa);
+		background-image:   -ms-linear-gradient(top, #f4f8fa, #f4f8fa);
+		background-image:   -o-linear-gradient(top, #f4f8fa, #f4f8fa);
+		color:              #6a6340;
+		-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+		-moz-box-shadow:    0px 0px 3px rgba(0,0,0,0.3);
+		box-shadow:         0px 0px 3px rgba(0,0,0,0.3);
+
+	}
+
+	.sticky-ribbon:before,
+	.sticky-ribbon:after {
+
+		content:      "";
+		border-top:   3px solid #6e8900;
+		border-left:  3px solid transparent;
+		border-right: 3px solid transparent;
+		position:     absolute;
+		bottom:       -3px;
+
+	}
+
+	.sticky-ribbon:before {
+		left:  0;
+	}
+
+	.sticky-ribbon:after {
+		right: 0;
+	}
+
+}

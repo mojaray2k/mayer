@@ -1,0 +1,79 @@
+/* Classes
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+.alignnone {
+
+	max-width: 100%;
+
+	img {
+
+		max-width: 100%;
+		height:    auto;
+
+	}
+
+}
+
+.aligncenter {
+
+	display:      block;
+	margin-left:  auto;
+	margin-right: auto;
+
+}
+
+.alignleft {
+
+	float:   left;
+	margin:  10px 20px 0 0;
+
+}
+
+.alignright {
+
+	float:   right;
+	margin:  10px 10px 0px 20px;
+
+}
+
+.gallery-caption {
+	text-align: center;
+}
+
+.more-link-wrapper {
+	padding-bottom: 40px;
+}
+
+.sticky {
+	@include sticky_ribbon();
+}
+
+tr.odd {
+	background-color: $light-gray;
+}
+
+.wp-caption-text {
+
+	font-size:      14px;
+	text-transform: uppercase;
+	text-align:     center;
+
+}
+
+.wp-caption.aligncenter {
+
+	max-width: 100%;
+
+	.size-large,
+	.size-full {
+
+		width:     100%;
+		max-width: 100%;
+		height:    auto;
+
+	}
+
+}

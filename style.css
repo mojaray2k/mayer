@@ -1,0 +1,15 @@
+/*
+Theme Name:  Mayer
+Theme URI:   https://wordpress.com/themes/mayer/
+Author:      Pressware
+Author URI:  http://pressware.co/
+Description: For the writer, established blogger, and inspired author.
+Version:     1.9.0
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mayer
+Domain Path: /languages/
+Tags:        white, light, two-columns, right-sidebar, responsive-layout, custom-menu, editor-style, rtl-language-support, sticky-post, theme-options, translation-ready, blog, journal, news, clean, conservative, light, minimal, modern, professional
+*/
+
+@import url( 'css/style.css' );

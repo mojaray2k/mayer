@@ -1,0 +1,76 @@
+/* Footer
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+#footer-wrapper {
+
+	background: $off-white;
+	border-top: 1px solid $light-gray;
+	height:     70px;
+
+	.row {
+
+		#mayer-back-to-top {
+
+			font-size:   18px;
+			font-family: 'Nunito', Sans-serif;
+			font-weight: 300;
+			margin:      10px 15px 0 15px;
+			text-align:  center;
+
+			a {
+
+				color:       $mayer-gray;
+
+				&:hover {
+					color: $dark-gray;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+#credit {
+
+	background: $mayer-blue;
+	color:      $light-gray;
+	text-align: center;
+
+	.container {
+
+		.row {
+
+			div {
+
+				a {
+
+					color: $off-white;
+
+					&:hover {
+						color: $dark-gray;
+					}
+
+				}
+
+				p {
+
+					color:      $off-white;
+					font-size:  16px;
+					padding:    40px 0 20px 0;
+					text-align: center;
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

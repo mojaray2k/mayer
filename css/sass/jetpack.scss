@@ -1,0 +1,96 @@
+/* JetPack
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+/* Note this style is marked as !important specifically for WordPress.com */
+#commentform {
+	background: #fff !important;
+}
+
+#subscribe-submit {
+
+	input[type="submit"] {
+
+		@include border_radius( 2px );
+
+		background: #ebebeb;
+		border:     1px solid #adadad;
+		color:      #333;
+
+		&:hover {
+			background: #fff;
+		}
+
+	}
+
+}
+
+#comment-form-subscribe {
+
+	width:   100%;
+	display: block;
+
+}
+
+.subscribe-label {
+
+	font-weight: normal;
+	font-size:   12px;
+
+}
+
+.form-allowed-tags {
+
+	clear:     both;
+	font-size: 12px;
+
+}
+
+.sharedaddy {
+	.sd-title {
+		@include jetpack_header();
+	}
+}
+
+#jp-relatedposts {
+	h3 {
+		@include jetpack_header();
+	}
+}
+
+div.sharedaddy.sd-like-enabled {
+
+	.sd-like {
+
+ 		.post-likes-widget {
+	 		position: relative !important;
+		}
+
+ 	}
+
+}
+
+.sharedaddy {
+
+	.sd-content {
+
+		.post-content {
+
+			a {
+
+				font-size: 16px;
+				text-decoration: none;
+
+			}
+
+		}
+
+	}
+
+}
+
+h3.jp-relatedposts-headline {
+	width: 100%;
+}

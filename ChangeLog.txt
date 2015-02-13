@@ -1,0 +1,243 @@
+## 1.9.0 ( 11 September 2014 )
+
+* Adding support for Jetpack response videos
+* Cleaned up comments in content.php so that the docblock is unambiguous
+* Fixed code styling so that code elements scroll when they overflow the container
+
+## 1.8.1 ( 9 July 2014 )
+
+* Adding a second conditional to make sure the post edit link and '&mdot;' only appears if the users is logged in
+
+## 1.8.0 ( 9 July 2014 )
+
+* Adding an 'Edit' link on all non-single pages to easily edit post links
+* Removing the 'Comments' link in the post meta if comments and pingbacks are closed
+* Changing Theme Customizer text from 'Display Header Image?' to 'Display Gravatar in Header?'
+* Adding LinkedIn to the social icons
+* Adding a helper function to detect if a string is an email address
+* Updating the Email social icon to support either a URL or an email address
+* Giving the description it's own container so that it can be more easily styled (on WordPress.com)
+* Adding a new layout option: The sidebar can now be set on the left side of the screen
+* Updating internationalization files to match some of the new strings
+
+## 1.7.0 ( 10 June 2014 )
+
+* Replacing bootstrap.min.js with bootstrap.js (version 3.0.3)
+* Replacing bootstrap.min.css with bootstrap.css (version 3.0.3)
+* Replacing fitvids.min.js with fitvids.js (versiokn 1.1)
+* Replacing font-awesome.min.css with font-awesome.css (version 4.1.0)
+* Replacing navigation.min.js with navigation.js
+* Replacing theme-customizer.min.js with theme-customizer.js
+* Replacing theme.min.js with theme.js
+* Maintaining the Sass files as that's how the uncompressed `style.css` file is generated
+* All of the above resolve (this ticket)[https://premium-review-trac.wordpress.com/ticket/1280#comment:3]
+
+## 1.6.0 ( 6 June 2014 )
+
+* Updated the theme screenshot
+* Slightly changed the theme's tag line
+* Removed all terminating code comments
+* Removed all `@subpackage` tags and combined them with the `@package` tag
+* Moved all `add_filter` and `add_action` calls above the DocBlocks
+
+## 1.5.2 ( 4 June 2014 )
+
+* Updating some style issues with JetPack sharing
+* Updating the `jetpack_header()` mixin so that it contains proper WordPress.com styles
+
+## 1.5.1 ( 15 May 2014 )
+
+* Updating the comment form (specifically for Jetpack) so that it looks better on WordPress.com
+* Change the email social icon container ID so that it's #email-address rather than #email..
+* Updating the `jetpack_header()` mixin so that it contains the proper styling for WordPress.com
+
+## 1.5.0 ( 17 April 2014 )
+
+* Introducing support for WordAds.
+* Improved the default Gravatar functionality so that the 'Discussion Settings' value
+  will be used if a Gravatar doesn't exist for the administrator's email.
+* Introducing an option in the Theme Customizer for toggling the header avatar.
+* Fixed a problem with `code` element widths exceeding the width of their parent containers.
+* Improved a level of theme performance as the [this ThemeShaper article](http://themeshaper.com/2014/02/06/theme-performance/).
+* Introducing an option to display social icons in the footer (a good option for mobile devices)
+* Compatibility with WordPress 3.9
+
+## 1.4.3  ( 27 March 2014 )
+
+* Continuing to address a regression that displayed scrollbars in overflowing areas of the
+  comment area specifically on Firefox 28 in Windows 7.
+
+## 1.4.2  ( 27 March 2014 )
+
+* Fixing a regression that displayed scrollbars in overflowing areas of the comment area
+  specifically on Firefox 28 in Windows 7.
+
+## 1.4.1  ( 27 March 2014 )
+
+* Fixing a regression that displayed scrollbars in overflowing areas of the comment area
+
+## 1.4.0  ( 26 March 2014 )
+
+* Improving the text justification in the mobile view
+* Displaying the avatar in the desktop, tablet, and mobile view
+* Still removing the tag line to prevent the header from taking up too much space in the header in the mobile view
+* Resolving the way "Share This" and "Related" headings look in Jetpack appear
+* Implementing a fix to solve the problem of font rendering in Chrome
+* Resolving a bug that had code elemnets overflowing the comment container
+
+## 1.3.0  ( 13 March 2014 )
+
+* Adding class names to each of the post meta items to make it easier to hide each piece of information
+
+## 1.2.0  ( 11 March 2014 )
+
+* Fixes to search form escaping
+
+## 1.1.0  ( 23 February 2014 )
+
+* Fixes spacing shift in homepage and single view page
+* Update editor styles for bulleted lists
+* Added "Email Address" to theme customizer
+
+## 1.0.0  ( 31 Janaury 2014 )
+
+* Updating the package name generation as per Sass.
+
+* Making sure the JavaScript dependencies are prefixed with 'mayer-'
+
+* Updating the functions and styles to import an additional font weight for Nunito
+
+* Updating package names for the editor style sheet
+
+* Updating the tagline in the style sheet for describing the theme.
+
+* Licensing
+	* All third-party assets (scripts, fonts, images, etc) need to have explicit licensing info included in the theme. The scripts already have this in their header, so we just need to deal with Font Awesome.
+
+* Footer
+	* WP.com themes need to use this code in footer.php for the credits. Of course, do what you like with the separator.
+
+*  Google Fonts
+	* Google Fonts need to be enqueued in a way that allows translators to turn them off (sometimes necessary if a certain font doesn't support a language's special characters).
+	* We also need to include code that defeats Google Font enqueueing if the user has active Custom Fonts. This can go in inc/wpcom.php, which is enqueued automatically on WP.com if it exists
+
+* minor cleanup and fixes
+	* Remove the RSS feed icon.
+	* Replace screenshot.png with a realistic representation of the theme (do not include any branding in the screenshot). 880px x 660px.
+	* i18n for includes/helpers.php, L124.
+	* partials/no-content.php L9 should use _e
+	* Replace all @package WordPress with @package Mayer (and remove @subpackages)
+	* Remove .gitignore.
+	* i18n for date.php L27
+	* Prefix all enqueue style and scripts handles with 'mayer-'
+	* We're missing the $themecolors array, which can go in inc/wpcom.php so it's enqueued automatically:
+	* Moved all files previous in 'includes' into 'inc'
+
+* Properly escaping values and URLs throughout the theme.
+	* esc_url for partials/attachment-pagination.php L15
+	* esc_url on the href for partials/avatar.php L3
+	* esc_url on the href for partials/post-meta.php L14
+	* esc_url on the href for partials/title.php L5
+	* esc_url on the href for footer.php L29
+	* esc_url and esc_html for the sprintf parameters in functions.php L335
+	* esc_attr for the email href in header.php L43
+	* esc_attr for the value attribute in searchform.php L18
+
+* Renaming the "Social Network" options to "Theme" as per WordPress.com conventions.
+
+## Beta 6 (17 January 2014)
+
+* Updating color schemes from the header, sidebar, and footer
+* Removing link to the Mayer homepage until its ready
+* Changing the background of the header
+* Removing many options in the Theme Customizer (as per Automattic's audit)
+* Updating styles for code fonts and anchored code
+
+## Beta 5 (16 January 2014)
+
+* Restoring caret visibility for tablet views
+* Improving tiled gallery layouts in tablets
+* Fixing the size of large images in post content
+* Swapping the color scheme for pre and code elements
+* Updaitng the code color scheme in editor-style.css
+* Added styles for JetPack specific modules
+* Added support for Pinterest
+* Removing the pagination top border on mobile view
+* Fixing the spacing of h6 element
+* Updating paragraph spacing
+* Updating the responsive sidebar functionality
+* Removing to pagiation title attribute because it's actually bad for accessibility
+* Adding a hidden field to track the theme customizer's background color for setting the sidebar
+* Removing styles for the 'More Tag' in responsive views
+
+## Beta 4 (15 January 2014)
+
+* Updating rtl.css so the social icons are swapped on RTL
+* Updating localization of comment form allowed tags
+* Introducing sidebar background and text customization to the theme customizer
+* Introducing a background to the sidebar
+* Removing plugin-specific CSS files (so WordPress SEO, WP-PageNavi, and GistPress will look ugly without the styles)
+* Removing the drop-shadow from the avatar
+* Fixing a typo in the comment field that prevented comments from being properly sent
+* Removing anchor outline in Firefox
+* Changing the anchor background on hover and on active
+* Tightening up spacing of text on mobile devices
+* Checking to see if a user has a gravatar before displaying it. If not, no space is made available for it.
+
+## Beta 3 (14 January 2014)
+
+* Updating the screenshot for the third beta
+* Introducing support for FitVids
+* Improving text strings for localization
+* Increase the available width for top-level menus
+* Increasing the contrast for tables so the borders do not disappear
+* Removing the hover effect on the gravatar
+* Removing 100% image width for images in the comments
+* Removing strict imports from the comment form
+* Continued updates to the child theme compatibility
+* Removing unnecessary %s tokens
+* Improving responsive functionality for viewing the theme on phones
+
+## Beta 2 (13 January 2014)
+
+* Improving small device (i.e., phone) responsive functionality
+* Adjusting the pagination styles so that the nesting corresponds with the markup
+* Removing the hover background color
+* Introducing an option for the header text hover color in the theme customizer
+* Updated `rtl.css` for pagination
+* Resolving "Strict Standards" for the Walker subclass
+* Implemented first pass of responsive design
+* Making the 'Post Comment' button resemble a button rather than an anchor
+* Fixed image stretching issues when the image was smaller than the width of the content area
+* Increase blockquote contrast
+* Increasing the contrast on post-meta anchors
+* Improving accessibility and contrast of the navigation menus
+* Giving the gravatar retina support
+* Fixing the initial set of templates to comply with Google Rich Snippets
+* Introducing styles to fix GistPress
+* Renamed the `scss` directory to `sass` for consistency
+* Introducing support for WordPress SEO breadcrumbs
+* Updating base element styles so the background is white (rather than dark blue)
+* Updating pagination so that the partial is in the proper place across all templates
+* Fixing inconsistent tabs and whitespaces
+* Internationalizing the text in the partials directory
+* Removing the translation of %title since it should already be in one's native language
+* Removing a link to WordPress.com
+* Adding a link to the homepage
+* Verifying consistency of Mayer/mayer wording through the theme
+* Clarifying how to specify your username
+* Adding RTL support for the sidebars
+* Added styles for WP-PageNavi
+* Further improvements to the 'Back To Top' padding (primarily for RTL)
+* Updating RTL for the header
+* Updating social icon alignment based on how many the user has setup
+* Fixing the problem where the base stylesheet was being improperly imported for child themes
+* Improving padding of certain elements
+
+## Beta 1 (10 January 2014)
+
+* Initial Release
+
+## Author Information
+
+Mayer is a theme for the writer, established blogger, and inspired author. It is developed and maintained by [Tom McFarlin](http://twitter.com/tommcfarlin/) of [Pressware](http://pressware.co).

@@ -1,0 +1,153 @@
+/* Sidebar
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+#sidebar {
+
+	background:   $mayer-dark-gray;
+	padding-top:  20px;
+
+	/*
+	 * General Elements
+	 *====================================*/
+
+	ul {
+
+		font-size:    16px;
+		padding-left: 16px;
+
+	}
+
+	select {
+		@include form_control();
+	}
+
+	.widget {
+
+		margin:  0 0 20px 0;
+		display: block;
+		float:   left;
+		width:   100%;
+
+	}
+
+	/*
+	 * Search
+	 *====================================*/
+
+	.widget_search {
+		margin: 0;
+	}
+
+	/*
+	 * Recent Comments
+	 *====================================*/
+
+	 .widget_recent_comments {
+
+		 #recentcomments {
+
+			 .recentcomments {
+
+				 a {
+					 word-break: break-word;
+				 }
+
+			 }
+
+		 }
+
+	 }
+
+	/*
+	 * RSS Widget
+	 *====================================*/
+
+	.widget-title {
+
+		.rsswidget {
+
+			img {
+				display: none;
+			}
+
+		}
+
+	}
+
+	/*
+	 * Tag Cloud
+	 *====================================*/
+
+	.tagcloud {
+
+		text-transform: uppercase;
+		text-align:     justify;
+
+	}
+
+	/*
+	 * Calendar
+	 *====================================*/
+
+	.widget_calendar {
+
+		#calendar_wrap {
+
+			#wp-calendar {
+
+				width: 100%;
+
+				caption {
+
+					text-transform: uppercase;
+					font-size:      16px;
+					margin:         10px 0 10px 0;
+
+				} // caption
+
+				tr th,
+				tr td {
+					text-align:center;
+				}
+
+			}
+
+		}
+
+	}
+
+	/*
+	 * Recent Posts
+	 *====================================*/
+
+	.widget_recent_entries {
+
+		ul {
+
+			li {
+
+				span {
+
+					display: block;
+					color:   $dark-gray;
+
+				}
+
+			}
+
+		}
+
+	}
+
+	/*
+	 * Text Widgets
+	 *====================================*/
+
+	.textwidget {
+		font-size: 16px;
+	}
+
+}

@@ -1,0 +1,24 @@
+/* Core Theme Style sheet.
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+@import "bootstrap";
+@import "colors";
+@import "mixins";
+@import "bootstrap-resets";
+@import "base-elements";
+@import "classes";
+@import "header";
+@import "navigation";
+@import "social-icons";
+@import "archives";
+@import "content";
+@import "pagination";
+@import "comments";
+@import "sidebar";
+@import "footer";
+@import "jetpack";
+@import "media-queries";
+@import "web-fonts";

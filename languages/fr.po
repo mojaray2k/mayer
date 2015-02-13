@@ -1,0 +1,275 @@
+# Translation of Mayer in French (France)
+# This file is distributed under the same license as the Mayer package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-07-10 03:18:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Mayer\n"
+
+#: inc/theme-customizer.php:250
+msgid "Place the Sidebar on the Left?"
+msgstr ""
+
+#: inc/theme-customizer.php:279
+msgid "Display Gravatar in Header?"
+msgstr ""
+
+#: inc/theme-customizer.php:220
+msgid "LinkedIn URL"
+msgstr "URL LinkedIn"
+
+#. Description of the plugin/theme
+msgid "For the writer, established blogger, and inspired author."
+msgstr ""
+
+#: search.php:59
+msgid "No Such Thing"
+msgstr "Rien De Tel"
+
+#: search.php:60
+msgid "There are no results for your search query. Try again using the form below:"
+msgstr "Aucun r&eacute;sultat. R&eacute;essayez avec cet outil de recherche:"
+
+#: searchform.php:16
+msgid "Search..."
+msgstr "Rech..."
+
+#: search.php:25
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: partials/pagination.php:42
+msgid "Newer Posts"
+msgstr "Articles Plus R&eacute;cents"
+
+#: partials/no-content.php:9
+msgid "The content you're looking for doesn't exist at this address. Continue browsing, or try searching for your content using the form below."
+msgstr "Ce contenu est introuvable. Poursuivez la navigation, ou utilisez l'outil de recherche."
+
+#: partials/pagination.php:36
+msgid "Older Posts"
+msgstr "Articles Pr&eacute;c&eacute;dents"
+
+#: inc/theme-customizer.php:191
+msgid "Google+ URL"
+msgstr "URL Google+"
+
+#: inc/theme-customizer.php:308
+msgid "Display Social Icons in the Footer?"
+msgstr "Afficher les icônes sociales dans le pied de page ?"
+
+#: partials/attachment-pagination.php:15
+msgid "Back To Parent Post"
+msgstr "Retour &agrave; l'article parent"
+
+#: partials/no-content.php:4
+msgid "Something's Missing"
+msgstr "Il Manque Quelque Chose"
+
+#: inc/theme-customizer.php:162
+msgid "Pinterest URL"
+msgstr "URL Pinterest"
+
+#: inc/theme-customizer.php:102
+msgid "Twitter Username (without \"@\")"
+msgstr "Nom d'Utilisateur Twitter (sans \"@\")"
+
+#: inc/theme-customizer.php:132
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: inc/theme-customizer.php:27
+msgid "Theme"
+msgstr "Thème"
+
+#: inc/helpers.php:98
+msgid "<input(.*?)type=\"password\"(.*?) />"
+msgstr "<input(.*?)type=\"password\"(.*?) />"
+
+#: inc/helpers.php:98
+msgid "<input$1type=\"password\"$2 class=\"form-control\" placeholder=\"Password\" />"
+msgstr "<input$1type=\"password\"$2 class=\"form-control\" placeholder=\"Password\" />"
+
+#: inc/helpers.php:99
+msgid "<input(.*?)type=\"submit\"(.*?) />"
+msgstr "<input(.*?)type=\"submit\"(.*?) />"
+
+#: inc/helpers.php:99
+msgid "<input$1type=\"submit\"$2 class=\"btn btn-default\" />"
+msgstr "<input$1type=\"submit\"$2 class=\"btn btn-default\" />"
+
+#: inc/helpers.php:212 inc/helpers.php:213
+msgid "Home"
+msgstr "Accueil"
+
+#: inc/helpers.php:96
+msgid "<p>This content is password protected. To view it please enter your password below:</p>"
+msgstr "<p> Ce contenu est prot&eacute;g&eacute; par un mot de passe. Pour y acc&eacute;der, entrez votre mot de passe ci-dessous:</p>"
+
+#: inc/helpers.php:96
+msgid "<p>To view this post, please enter your password:</p>"
+msgstr "<p>Pour lire cet article, entrez votre mot de passe:</p>"
+
+#: inc/helpers.php:97
+msgid "Password:"
+msgstr "Mot de passe&nbsp;:"
+
+#: functions.php:339
+msgid "tags and attributes:"
+msgstr "tags et attributs:"
+
+#: functions.php:344
+msgid "Name and email address are required. Your email address will not be published."
+msgstr "Nom et adresse email obligatoires. Votre adresse email ne sera pas publi&eacute;e."
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Nunito, translate this to 'off'. Do not translate into
+#. your
+#. * own language.
+#: functions.php:385
+msgctxt "Nunito: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Muli, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:400
+msgctxt "Muli: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Muli, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:415
+msgctxt "Source+Sans+Pro: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:31
+msgid "Toggle Navigation"
+msgstr "Bascule de la Navigation"
+
+#: inc/helpers.php:36
+msgid "Page %s"
+msgstr "Page %s"
+
+#: functions.php:339
+msgid "HTML"
+msgstr "HTML"
+
+#: functions.php:330
+msgid "Log out?"
+msgstr "Déconnexion ?"
+
+#: functions.php:339
+msgid "You may use these"
+msgstr ""
+
+#: functions.php:330
+msgid "Logged in as "
+msgstr "Connecté(e) en tant que"
+
+#: functions.php:322
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Vous devez <a href=\"%s\">être connecté</a> pour rédiger un commentaire."
+
+#: functions.php:317
+msgid "Comment"
+msgstr "Commentaire"
+
+#: functions.php:306
+msgid "Website"
+msgstr "Site web"
+
+#: functions.php:302 inc/theme-customizer.php:71
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: functions.php:298
+msgid "Name"
+msgstr "Nom"
+
+#: functions.php:221
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:211 partials/post-meta.php:49
+msgid "Edit"
+msgstr "Modifier"
+
+#: functions.php:92
+msgid "The primary sidebar for the theme."
+msgstr "La sidebar principale du th&egrave;me"
+
+#: functions.php:209 functions.php:269
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: functions.php:90
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:74
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: footer.php:38
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème %1$s par %2$s."
+
+#: footer.php:35
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: footer.php:34
+msgid "A Semantic Personal Publishing Platform"
+msgstr "Une plate-forme sémantique de publication personnelle"
+
+#: comments.php:75
+msgid "There are no comments for this post."
+msgstr "Il n'y a aucun commentaire pour cet article."
+
+#: date.php:25
+msgid "Archives For %s"
+msgstr "Archives de %s"
+
+#: footer.php:16
+msgid "Back To Top"
+msgstr "Revenir en haut"
+
+#: comments.php:74
+msgid "No Comments"
+msgstr "Pas de commentaire"
+
+#: comments.php:57
+msgid "Trackbacks and Pingbacks"
+msgstr "R&eacute;troliens et Pings"
+
+#: comments.php:47
+msgid "Newer Comments "
+msgstr "Commentaires Récents"
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr "Commentaires Précédents"
+
+#: comments.php:19
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "Un commentaire"
+msgstr[1] "%1$s Commentaires"
+
+#: author.php:44 category.php:45 content.php:38 date.php:44 page.php:29
+#: search.php:46 single.php:35 tag.php:45
+msgid "Read More"
+msgstr "Lire la Suite"
+
+#: author.php:25
+msgid "Posts By %s"
+msgstr "Articles par %s"

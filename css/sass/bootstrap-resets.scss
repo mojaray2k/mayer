@@ -1,0 +1,45 @@
+/* Bootstrap Resets
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+h1, h2, h3, h4, h5, h6 {
+
+	margin-top:    10px;
+	margin-bottom: 10px;
+
+}
+
+.collapse {
+	@include collapse_lr_padding();
+}
+
+.nav {
+
+	.caret {
+
+		border-top-color:     $dark-gray;
+		border-bottom-color:  $dark-gray;
+		margin-left:          10px;
+		margin-top:           -4px;
+
+	}
+
+}
+
+.pager {
+
+	li {
+
+		> a {
+
+			&:hover {
+				background: transparent;
+			}
+
+		}
+
+	}
+
+}

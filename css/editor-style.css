@@ -1,0 +1,262 @@
+/* Editor Styles
+ *
+ * This particular file includes several sections - which may be ultimately
+ * separated into their own SASS files.
+ *
+ * For Now:
+ *
+ * - Fonts
+ * - Sass Dependencies
+ * - Elements
+ * - Classes
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Fonts
+ *
+ * We must import the Web Fonts using the @import (rather than in functions.php)
+ *
+ * @since   1.0.0
+ *====================================*/
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900|Muli:300,400|Nunito:400,300,700");
+@import url("lib/bootstrap.min.css");
+/* Sass Dependencies
+ *
+ * @since   1.0.0
+ *====================================*/
+/* Color Palette
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/* Mixins
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+/*
+ * This mixin is based on Chris Coyier's CSS ribbon.
+ * http://css-tricks.com/snippets/css/corner-ribbon/
+ *==================================================*/
+/* Classes
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+.alignnone {
+  max-width: 100%; }
+  .alignnone img {
+    max-width: 100%;
+    height: auto; }
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.alignleft {
+  float: left;
+  margin: 10px 20px 0 0; }
+
+.alignright {
+  float: right;
+  margin: 10px 10px 0px 20px; }
+
+.gallery-caption {
+  text-align: center; }
+
+.more-link-wrapper {
+  padding-bottom: 40px; }
+
+.sticky .sticky-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  z-index: 1; }
+.sticky .sticky-ribbon {
+  font: bold 15px Sans-Serif;
+  color: #333;
+  text-align: center;
+  text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  position: relative;
+  padding: 4px 0;
+  left: -6px;
+  top: 20px;
+  width: 120px;
+  background-color: #f4f8fa;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f8fa), to(#f4f8fa));
+  background-image: -webkit-linear-gradient(top, #f4f8fa, #f4f8fa);
+  background-image: -moz-linear-gradient(top, #f4f8fa, #f4f8fa);
+  background-image: -ms-linear-gradient(top, #f4f8fa, #f4f8fa);
+  background-image: -o-linear-gradient(top, #f4f8fa, #f4f8fa);
+  color: #6a6340;
+  -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); }
+.sticky .sticky-ribbon:before,
+.sticky .sticky-ribbon:after {
+  content: "";
+  border-top: 3px solid #6e8900;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: absolute;
+  bottom: -3px; }
+.sticky .sticky-ribbon:before {
+  left: 0; }
+.sticky .sticky-ribbon:after {
+  right: 0; }
+
+tr.odd {
+  background-color: #e3e3e3; }
+
+.wp-caption-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center; }
+
+.wp-caption.aligncenter {
+  max-width: 100%; }
+  .wp-caption.aligncenter .size-large,
+  .wp-caption.aligncenter .size-full {
+    width: 100%;
+    max-width: 100%;
+    height: auto; }
+
+/* Elements
+ *
+ * The code below is based off of `content.scss` with modifications for TinyMCE
+ *
+ * @since   1.0.0
+ *====================================*/
+body {
+  font-family: 'Source Sans Pro', Sans-serif;
+  font-size: 16px;
+  max-width: 720px; }
+
+a {
+  color: #80949c; }
+  a:hover {
+    color: #2e3138;
+    text-decoration: none; }
+
+address {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 22px; }
+
+blockquote {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #b5b5b5;
+  text-align: justify; }
+  blockquote p {
+    line-height: 22px;
+    font-size: 16px; }
+
+cite {
+  display: block;
+  font-style: italic;
+  margin-top: 8px;
+  border-bottom: 0; }
+
+code,
+pre {
+  background: #e3e3e3;
+  color: #2e3138;
+  font-family: 'Lucida Grande', Monotype, Consolas, "Courier New", Monospace;
+  font-size: 16px; }
+
+var {
+  font-family: Monospace, sans-serif;
+  font-style: normal; }
+
+dd {
+  margin-left: 12px; }
+
+dt {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+del,
+ins {
+  color: black; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', Sans-serif;
+  font-weight: bold;
+  letter-spacing: -2px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+h2 {
+  font-size: 34px; }
+
+h3 {
+  font-size: 32px; }
+
+h4 {
+  font-size: 30px; }
+
+h5 {
+  font-size: 28px; }
+
+h6 {
+  font-size: 26px; }
+
+h1, h2, p {
+  word-wrap: break-word; }
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: justify; }
+
+th {
+  font-size: 17px;
+  border: 1px solid #e3e3e3 !important;
+  padding: 2px;
+  line-height: 32px; }
+
+td {
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border: 1px solid #e3e3e3 !important;
+  padding: 2px;
+  font-size: 15px;
+  line-height: 32px; }
+
+ul, ol {
+  font-size: 17px; }
+
+/* Classes
+ *
+ * These classes are borrowed and modified from `content.scss`.
+ *
+ * @since   1.0.0
+ *====================================*/
+.aligncenter,
+.alignleft,
+.alignright,
+.alignnone {
+  max-width: 100%;
+  height: auto; }
+
+.wp-caption {
+  background: none;
+  border: 0; }
+  .wp-caption .wp-caption-dd {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 10px; }

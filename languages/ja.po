@@ -1,0 +1,274 @@
+# Translation of Mayer in Japanese
+# This file is distributed under the same license as the Mayer package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-07-10 03:18:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Mayer\n"
+
+#: inc/theme-customizer.php:250
+msgid "Place the Sidebar on the Left?"
+msgstr ""
+
+#: inc/theme-customizer.php:279
+msgid "Display Gravatar in Header?"
+msgstr ""
+
+#: inc/theme-customizer.php:220
+msgid "LinkedIn URL"
+msgstr "LinkedIn URL"
+
+#. Description of the plugin/theme
+msgid "For the writer, established blogger, and inspired author."
+msgstr "ライターやベテランブロガー、作家さんなどにおすすめです。"
+
+#: search.php:59
+msgid "No Such Thing"
+msgstr "該当するものがありません"
+
+#: search.php:60
+msgid "There are no results for your search query. Try again using the form below:"
+msgstr "検索結果がありません。下のフォームから再びお試しください。"
+
+#: searchform.php:16
+msgid "Search..."
+msgstr "検索…"
+
+#: search.php:25
+msgid "Search Results"
+msgstr "検索結果"
+
+#: partials/pagination.php:42
+msgid "Newer Posts"
+msgstr "新しい投稿"
+
+#: partials/no-content.php:9
+msgid "The content you're looking for doesn't exist at this address. Continue browsing, or try searching for your content using the form below."
+msgstr "このアドレスにはお探しのコンテンテツは存在しません。以下のフォームでの検索をお試しください。"
+
+#: partials/pagination.php:36
+msgid "Older Posts"
+msgstr "過去の投稿"
+
+#: inc/theme-customizer.php:191
+msgid "Google+ URL"
+msgstr "Google+ URL"
+
+#: inc/theme-customizer.php:308
+msgid "Display Social Icons in the Footer?"
+msgstr "フッターにソーシャルアイコンを表示しますか ?"
+
+#: partials/attachment-pagination.php:15
+msgid "Back To Parent Post"
+msgstr "親投稿へ戻る"
+
+#: partials/no-content.php:4
+msgid "Something's Missing"
+msgstr "何かが足りないようです。"
+
+#: inc/theme-customizer.php:162
+msgid "Pinterest URL"
+msgstr "Pinterest URL"
+
+#: inc/theme-customizer.php:102
+msgid "Twitter Username (without \"@\")"
+msgstr "Twitter ユーザー名 (\"@\" は不要)"
+
+#: inc/theme-customizer.php:132
+msgid "Facebook URL"
+msgstr "Facebook URL"
+
+#: inc/theme-customizer.php:27
+msgid "Theme"
+msgstr "テーマ名"
+
+#: inc/helpers.php:98
+msgid "<input(.*?)type=\"password\"(.*?) />"
+msgstr ""
+
+#: inc/helpers.php:98
+msgid "<input$1type=\"password\"$2 class=\"form-control\" placeholder=\"Password\" />"
+msgstr ""
+
+#: inc/helpers.php:99
+msgid "<input(.*?)type=\"submit\"(.*?) />"
+msgstr ""
+
+#: inc/helpers.php:99
+msgid "<input$1type=\"submit\"$2 class=\"btn btn-default\" />"
+msgstr ""
+
+#: inc/helpers.php:212 inc/helpers.php:213
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/helpers.php:96
+msgid "<p>This content is password protected. To view it please enter your password below:</p>"
+msgstr "<p>このコンテンツはパスワードで保護されています。閲覧するには以下にパスワードを入力してください。</p>"
+
+#: inc/helpers.php:96
+msgid "<p>To view this post, please enter your password:</p>"
+msgstr "<p>この投稿を表示するにはパスワードを入力してください。</p>"
+
+#: inc/helpers.php:97
+msgid "Password:"
+msgstr "パスワード:"
+
+#: functions.php:339
+msgid "tags and attributes:"
+msgstr "タグと属性:"
+
+#: functions.php:344
+msgid "Name and email address are required. Your email address will not be published."
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Nunito, translate this to 'off'. Do not translate into
+#. your
+#. * own language.
+#: functions.php:385
+msgctxt "Nunito: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Muli, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:400
+msgctxt "Muli: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not
+#. * supported by Muli, translate this to 'off'. Do not translate into your
+#. * own language.
+#: functions.php:415
+msgctxt "Source+Sans+Pro: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:31
+msgid "Toggle Navigation"
+msgstr "ナビゲーションを切り替え"
+
+#: inc/helpers.php:36
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: functions.php:339
+msgid "HTML"
+msgstr "HTML"
+
+#: functions.php:330
+msgid "Log out?"
+msgstr "ログアウトしますか ?"
+
+#: functions.php:339
+msgid "You may use these"
+msgstr ""
+
+#: functions.php:330
+msgid "Logged in as "
+msgstr "ログイン中:"
+
+#: functions.php:322
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントを投稿するには<a href=\"%s\">ログイン</a>してください。"
+
+#: functions.php:317
+msgid "Comment"
+msgstr "コメント"
+
+#: functions.php:306
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: functions.php:302 inc/theme-customizer.php:71
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: functions.php:298
+msgid "Name"
+msgstr "名前"
+
+#: functions.php:221
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: functions.php:211 partials/post-meta.php:49
+msgid "Edit"
+msgstr "編集"
+
+#: functions.php:92
+msgid "The primary sidebar for the theme."
+msgstr "テーマのメインサイドバー。"
+
+#: functions.php:209 functions.php:269
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:90
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:74
+msgid "Main Menu"
+msgstr "メインメニュー"
+
+#: footer.php:38
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: footer.php:35
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:34
+msgid "A Semantic Personal Publishing Platform"
+msgstr "セマンティックなブログ／CMS プラットフォーム"
+
+#: comments.php:75
+msgid "There are no comments for this post."
+msgstr "この投稿にはコメントがありません。"
+
+#: date.php:25
+msgid "Archives For %s"
+msgstr "%s のアーカイブ"
+
+#: footer.php:16
+msgid "Back To Top"
+msgstr "トップへ戻る"
+
+#: comments.php:74
+msgid "No Comments"
+msgstr "コメントはまだありません"
+
+#: comments.php:57
+msgid "Trackbacks and Pingbacks"
+msgstr "トラックバック・ピンバック"
+
+#: comments.php:47
+msgid "Newer Comments "
+msgstr "より新しいコメント"
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:19
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "コメント1件"
+
+#: author.php:44 category.php:45 content.php:38 date.php:44 page.php:29
+#: search.php:46 single.php:35 tag.php:45
+msgid "Read More"
+msgstr "続きを読む"
+
+#: author.php:25
+msgid "Posts By %s"
+msgstr "%s の投稿"

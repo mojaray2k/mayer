@@ -1,0 +1,45 @@
+/* Social Icons
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+#social-icons {
+
+	li {
+
+		width:  40px;
+		height: 20px;
+
+		&:hover {
+			background: transparent;
+		}
+
+		a {
+
+			i {
+				text-align: right;
+			}
+
+		}
+
+	}
+
+}
+
+#social-icons-footer {
+
+	display:     inline-block;
+	padding-top: 20px;
+
+	#social-icons {
+
+		a {
+			&:hover {
+				background: none;
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,63 @@
+/* Pagination
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+#pagination {
+
+	padding: 0;
+
+	.pager {
+
+		margin-bottom: 20px;
+		margin-top:    20px;
+		font-size:     18px;
+
+		li {
+
+			a {
+
+				border: 0;
+				color:  $dark-blue;
+
+			}
+
+		}
+
+		.previous {
+
+			> a {
+				padding-left: 0;
+			}
+
+		}
+
+		.next {
+
+			> a {
+				padding-right: 0;
+			}
+
+		}
+
+		.archive-next {
+
+			> a {
+				padding-right: 20px;
+			}
+
+		}
+
+		.previous,
+		.next {
+
+			a:hover {
+				color: $dark-gray;
+			}
+
+		}
+
+	}
+
+}

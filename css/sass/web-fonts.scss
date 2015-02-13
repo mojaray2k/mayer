@@ -1,0 +1,27 @@
+/* Web Font Styles for fixing Google Chrome
+ * web font rendering.
+ *
+ * @package    Mayer/css
+ * @since      1.4.0
+ *====================================*/
+
+body {
+
+	-webkit-animation-duration:        0.1s;
+	-webkit-animation-name:            fontfix;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay:           0.1s;
+
+}
+
+@-webkit-keyframes fontfix {
+
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,85 @@
+/* Header
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+#masthead {
+
+	min-height:     150px;
+	background:     $mayer-blue;
+
+	.container {
+
+		padding-top:    20px;
+		padding-bottom: 20px;
+
+		#avatar {
+
+			margin:        0 auto;
+			margin-top:    12px;
+			margin-bottom: 12px;
+			text-align: center;
+
+			img {
+
+				@include rounded_image();
+
+				width:         140px;
+				height:        140px;
+
+			}
+
+		}
+
+	}
+
+	#title {
+
+		margin-top: 16px;
+
+		#site-title {
+
+			@include header_font();
+			letter-spacing: -2px;
+
+				&:hover {
+					color: $light-gray;
+				}
+
+		}
+
+		p#site-title {
+
+			@-moz-document url-prefix() {
+
+				margin-top:    1px;
+				margin-bottom: 0px;
+
+			}
+
+			@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+				margin-top:    0px;
+				margin-bottom: 1px;
+
+			}
+
+		}
+
+	}
+
+	#description {
+
+		p#site-description {
+
+			@include header_font();
+			font-size:        32px;
+			font-weight:      300;
+			letter-spacing:   -2px;
+
+		}
+
+	}
+
+}

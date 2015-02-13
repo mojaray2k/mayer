@@ -1,0 +1,161 @@
+/* Base Elements
+ *
+ * @package    Mayer/css
+ * @since      1.0.0
+ *====================================*/
+
+body {
+
+	background:  $white;
+	font-family: 'Source Sans Pro', Sans-serif;
+
+}
+
+a {
+
+	color: $mayer-blue;
+
+	> code {
+
+		color: $mayer-red;
+
+		&:hover {
+			color: $mayer-blue;
+		}
+
+	}
+
+	&:hover {
+
+		color:           $dark-blue;
+		text-decoration: none;
+
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+}
+
+address {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style:  italic;
+	font-size:   15px;
+	line-height: 22px;
+
+}
+
+blockquote {
+
+	font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding:      0 0 0 15px;
+	margin:       0 0 20px;
+	border-left:  5px solid $dark-gray;
+
+	p {
+
+		line-height: 22px;
+		font-size:   16px;
+
+	}
+
+}
+
+cite {
+
+	display:    block;
+	font-style: italic;
+	margin-top: 8px;
+
+}
+
+code {
+
+	background-color:	$light-gray;
+	color:				$dark-blue;
+
+}
+
+dd {
+	margin-left: 12px;
+}
+
+dt {
+
+	margin-top:    10px;
+	margin-bottom: 10px;
+
+}
+
+th,
+td {
+
+	border:  1px solid $mayer-gray;
+	padding: 8px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+	font-family:    'Source Sans Pro', Sans-serif;
+	font-weight:    bold;
+	letter-spacing: -2px;
+
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 28px;
+}
+
+h6 {
+
+	font-size:      26px;
+	letter-spacing: -2px;
+
+}
+
+h1, h2, p {
+	word-wrap: break-word;
+}
+
+p {
+
+	code {
+
+		display: block;
+		overflow: scroll;
+
+	}
+
+}
+
+code,
+pre {
+
+	background:  $light-gray;
+	color:       $dark-blue;
+	font-family: 'Lucida Grande', Monotype, Consolas, "Courier New", Monospace;
+	font-size:   17px;
+
+}
+
+var {
+
+	font-family: Monospace, sans-serif;
+	font-style:  normal;
+
+}
