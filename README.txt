@@ -1,6 +1,6 @@
 # Mayer
 
-* 1.8.0
+* 1.9.0
 * 11 September 2014
 
 ## Release Notes
@@ -33,4 +33,5 @@ For the writer, established blogger, and inspired author.
 
 ## Licensing
 
-* Font Awesome: Font files are licensed SIL OFL 1.1. Code files are licensed under the MIT license.
+* Font Awesome: Font files are licensed SIL OFL 1.1. 
+* Code files are licensed under the MIT license.
